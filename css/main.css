@@ -2,6 +2,7 @@ h1{
     font-family: montserrat;
     font-size: 58px;
     font-weight: 700;
+    color: #252B42;
 }
 
 h2 {
@@ -9,11 +10,160 @@ h2 {
     font-size: 44px;
     font-weight: 600;
     line-height: 36px;
+    color: #252B42;
 }
 
 h3{
     font-family: montserrat;
     font-size: 40px;
     font-weight: 700;
+    color: #252B42;
+    ;
+}
+
+p{
+    font-family: montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    color: #737373;
+    ;
+}
+
+.container {
+    text-align: center; 
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header img{
+    width: 100%;
+}
+main img {
+    width: 100%;
+}
+
+.logo {
+    padding: 10px 10px 10px 10px;
+    margin: 0 auto;
+    
+}
+
+.nav-bar {
+    text-align: center;
+    
+}
+
+.navigation {
+    display: inline-block;
+    color: #252B42;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation ul li {
+    display: inline;
+    width: 40%;
+    padding: 1em;
+    font-family: montserrat;
+    font-size: 20px;
+    
+}
+
+.navigation a {
+    margin: 0;
+  padding: 15px;
+  color: #252B42;
+  text-decoration: none;
+  
+}
+.navigation a:hover {
+    background-color: #FA4A0C;
+    ;
+}
+
+.play a {
+    display: list-item;
+    text-decoration: none;
+    color: #FA4A0C;
+    font-family: montserrat;
+    font-size: 24px;
+    border-radius: 30px;
+    padding: 16px;
+    border: 1px;
+
+}
+.play a:hover {
+    background-color: #FA4A0C;
+    color: white;
+}
+
+.creation h2 {
+    color: #FA4A0C;
+    font-family: montserrat;
+    font-size: 24px;
+}
+.exploring h2 {
+    color: #FA4A0C;
+    font-family: montserrat;
+    font-size: 24px;
+}
+.checking-out h2 {
+    color: #FA4A0C;
+    font-family: montserrat;
+    font-size: 24px;
+}
+
+.top-header {
+    text-align: center;
+}
+
+.top-header div {
+    margin: 20px auto;
+}
+
+.top-header div ul {
+    padding: 0;
+    list-style: none;
+}
+
+.top-header div ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.main {
+    text-align: center;
+}
+
+.main div {
+    margin: 20px auto;
+}
+
+.download h3 {
+    color: #ffffff;
+
+}
+.download {
+    background-color: #252B42;
+    margin: 0 auto;
+}
+.download ul li {
+    display: inline;
+    
+}
+.download a {
+    font-size: 16px;
+    color: #ffffff;
+    
+}
+
+.footer {
+    text-align: center;
+}
+
+.social-icons {
+    margin-bottom: 20px;
 }
 
