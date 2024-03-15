@@ -167,3 +167,25 @@ main img {
     margin-bottom: 20px;
 }
 
+/*Contact*/
+form {
+    width: 50%;
+    margin: 0 auto;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+button {
+    background-color: #FA4A0C;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
