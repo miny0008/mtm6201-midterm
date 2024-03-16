@@ -1,4 +1,4 @@
-h1{
+h1 {
     font-family: montserrat;
     font-size: 58px;
     font-weight: 700;
@@ -13,7 +13,7 @@ h2 {
     color: #252B42;
 }
 
-h3{
+h3 {
     font-family: montserrat;
     font-size: 40px;
     font-weight: 700;
@@ -21,7 +21,7 @@ h3{
     ;
 }
 
-p{
+p {
     font-family: montserrat;
     font-size: 24px;
     font-weight: 500;
@@ -30,13 +30,15 @@ p{
 }
 
 .container {
-    text-align: center; 
+    text-align: center;
     max-width: 1200px;
     margin: 0 auto;
 }
-header img{
+
+header img {
     width: 100%;
 }
+
 main img {
     width: 100%;
 }
@@ -44,12 +46,12 @@ main img {
 .logo {
     padding: 10px 10px 10px 10px;
     margin: 0 auto;
-    
+
 }
 
 .nav-bar {
     text-align: center;
-    
+
 }
 
 .navigation {
@@ -67,20 +69,21 @@ main img {
     width: 40%;
     padding: 1em;
     font-family: montserrat;
-    font-size: 20px;
-    
+    font-size: 18px;
+
 }
 
 .navigation a {
     margin: 0;
-  padding: 15px;
-  color: #252B42;
-  text-decoration: none;
-  
+    padding: 15px;
+    color: #252B42;
+    text-decoration: none;
+
 }
+
 .navigation a:hover {
     background-color: #FA4A0C;
-    ;
+
 }
 
 .play a {
@@ -94,6 +97,7 @@ main img {
     border: 1px;
 
 }
+
 .play a:hover {
     background-color: #FA4A0C;
     color: white;
@@ -104,11 +108,13 @@ main img {
     font-family: montserrat;
     font-size: 24px;
 }
+
 .exploring h2 {
     color: #FA4A0C;
     font-family: montserrat;
     font-size: 24px;
 }
+
 .checking-out h2 {
     color: #FA4A0C;
     font-family: montserrat;
@@ -145,43 +151,72 @@ main img {
     color: #ffffff;
 
 }
+
 .download {
     background-color: #252B42;
     margin: 0 auto;
+    padding: 20px 20px 20px 20px;
+
 }
+
 .download ul li {
     display: inline;
-    
+
 }
+
 .download a {
+    font-family: montserrat;
     font-size: 16px;
     color: #ffffff;
-    
+    gap: 13px;
+    padding-left: 20px;
+    text-decoration: none;
+    border-radius: 2em;
+
+
+}
+
+.download a:hover {
+    background-color: #FA4A0C;
 }
 
 .footer {
     text-align: center;
 }
 
-.social-icons {
+.social-icons i {
+    font-size: 30px;
+    color: #FA4A0C;
     margin-bottom: 20px;
 }
 
 /*Contact*/
 form {
+    font-family: montserrst;
+    font-size: 20px;
     width: 50%;
     margin: 0 auto;
 }
+
 label {
+    font-family: montserrst;
+    font-size: 20px;
     display: block;
     margin-bottom: 10px;
 }
-input, textarea {
+
+input,
+textarea {
+    font-family: montserrst;
+    font-size: 20px;
     width: 100%;
     padding: 8px;
     margin-bottom: 20px;
 }
+
 button {
+    font-family: montserrst;
+    font-size: 20px;
     background-color: #FA4A0C;
     color: white;
     padding: 10px 20px;
@@ -189,3 +224,125 @@ button {
     cursor: pointer;
 }
 
+.footer-contact .social {
+    text-align: center;
+    /* Center align the content */
+}
+
+.footer-contact .social i {
+    display: inline;
+    color: #FA4A0C;
+    font-size: 30px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.footer-contact div p {
+    margin: 0;
+    /* Remove default margin of the paragraph */
+    text-align: center;
+    /* Center align the paragraph */
+}
+
+@media screen and (min-width: 768px) {
+    .top-header img {
+        width: 300px;
+        height: 400px;
+        align-content: center;
+
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .top-header img {
+        width: 650px;
+        height: 942px;
+        
+    }
+
+    .water img {
+        width: 302px;
+        height: 525px;
+    }
+
+    .download {
+        background-image: url(../images/bannertwo.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+
+    .download p {
+        color: #ffffff;
+    }
+
+    .download p:before {
+        content: "Available in your favorite store. Start your premium experience now"
+    }
+
+    .top-header {
+        background-image: url(../images/bannerone.png);
+        background-repeat: no-repeat;
+
+    }
+
+    .top-header h1 {
+        color: #ffffff;
+    }
+
+    .top-header p {
+        color: #ffffff;
+    }
+
+    .top-header ul li a {
+        display: inline;
+        color: #ffffff;
+    }
+    .creation {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "a b";
+        margin: 2rem 0;
+    }
+    .creation img {
+        grid-area: a;
+
+    }
+    .creation .act {
+        grid-area: b;
+        text-align: left;
+
+    }
+    .exploring {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "a b";
+        margin: 2rem 0;
+    }
+    .exploring .second {
+        grid-area: a;
+        text-align: left;
+    }
+    .exploring img {
+        grid-area: b;
+    }
+
+    .checking-out {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "a b";
+        margin: 2rem 0;
+    }
+    .checking-out img {
+        grid-area: a;
+    }
+    .checking-out .third {
+        grid-area: b;
+        text-align: left;
+    }
+
+
+}
