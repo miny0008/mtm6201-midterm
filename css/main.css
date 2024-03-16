@@ -191,15 +191,22 @@ main img {
 }
 
 /*Contact*/
+.con {
+    font-family: montserrat;
+    font-size: 40px;
+    text-align: center;
+    text-decoration:underline;
+    color: #FA4A0C;
+}
 form {
-    font-family: montserrst;
+    font-family: montserrat;
     font-size: 20px;
     width: 50%;
     margin: 0 auto;
 }
 
 label {
-    font-family: montserrst;
+    font-family: montserrat;
     font-size: 20px;
     display: block;
     margin-bottom: 10px;
@@ -207,7 +214,7 @@ label {
 
 input,
 textarea {
-    font-family: montserrst;
+    font-family: montserrat;
     font-size: 20px;
     width: 100%;
     padding: 8px;
@@ -215,7 +222,7 @@ textarea {
 }
 
 button {
-    font-family: montserrst;
+    font-family: montserrat;
     font-size: 20px;
     background-color: #FA4A0C;
     color: white;
